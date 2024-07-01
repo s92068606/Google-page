@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Search</title>
+    <style>
+        body {
+            background-color: #1a1a1a;
+            color: #fff;
+            font-family: sans-serif;
+            margin: 0;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        .logo {
+            font-size: 64px;
+            margin-bottom: 30px;
+        }
+        .search-bar {
+            background-color: #282828;
+            border: none;
+            border-radius: 20px;
+            padding: 15px 20px;
+            width: 600px;
+        }
+        .search-bar input {
+            background-color: transparent;
+            border: none;
+            color: #fff;
+            font-size: 18px;
+            width: 100%;
+        }
+        .search-bar input::placeholder {
+            color: #fff;
+        }
+        .icons {
+            display: flex;
+            margin-top: 20px;
+        }
+        .icon {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-color: #333;
+            margin: 0 10px;
+            cursor: pointer;
+        }
+        .icon img {
+            width: 50px;
+            height: 50px;
+        }
+        .icon span {
+            font-size: 14px;
+            margin-top: 5px;
+        }
+        .footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: #282828;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .footer .left {
+            display: flex;
+            align-items: center;
+        }
+        .footer .left img {
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+        }
+        .footer .right {
+            display: flex;
+            align-items: center;
+        }
+        .footer .right img {
+            width: 20px;
+            height: 20px;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="logo">Google</h1>
+        <div class="search-bar">
+            <input type="text" placeholder="Search Google or type a URL">
+        </div>
+        <div class="icons">
+            <div class="icon">
+                <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Online Learning">
+                <span>Online Learning</span>
+            </div>
+            <div class="icon">
+                <img src="https://www.w3schools.com/images/w3schools.png" alt="W3Schools Online Tutorials">
+                <span>W3Schools Online Tutorials</span>
+            </div>
+            <div class="icon">
+                <img src="https://www.linkedin.com/favicon.ico" alt="Exams Open Learning">
+                <span>Exams Open Learning</span>
+            </div>
+            <div class="icon">
+                <img src="https://www.l.com/favicon.ico" alt="Index of /sha">
+                <span>Index of /sha</span>
+            </div>
+        </div>
+        <div class="icons">
+            <div class="icon">
+                <img src="https://www.l.com/favicon.ico" alt="WAMPServer">
+                <span>WAMPServer</span>
+            </div>
+            <div class="icon">
+                <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google Translate">
+                <span>Google Translate</span>
+            </div>
+            <div class="icon">
+                <img src="https://www.whatsapp.com/favicon.ico" alt="whatsapp">
+                <span>whatsapp</span>
+            </div>
+            <div class="icon">
+                <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Add shortcut">
+                <span>Add shortcut</span>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="left">
+            <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google">
+            <span>Search</span>
+        </div>
+        <div class="right">
+            <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="ENG">
+            <span>ENG</span>
+        </div>
+    </div>
+</body>
+</html>
